@@ -12,22 +12,22 @@
 
   <div class="container">
     <?php
-
-    // Giocatore 1
-
+//Loop per tirarmi le immagini e buttarle in stringa.
     for ($d = 0; $d <= 6; $d++) {
       $dadi[] = "immagini/dado" . $d . ".png";
     }
+    
+    // Giocatore 1
     $dado1 = rand(1, 6);
     $dado2 = rand(1, 6);
 
     // Giocatore 2
     $dado3 = rand(1, 6);
     $dado4 = rand(1, 6);
+    //Uso i singoli risultati dei rand per richiamarmi le immagini dal mio array
 
     $totale1 = $dado1 + $dado2;
     $totale2 = $dado3 + $dado4;
-
 
     ?>
     <div class="dadi" style="margin-right: 30px;">
