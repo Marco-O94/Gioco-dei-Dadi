@@ -12,6 +12,7 @@
 
 body {
   background-color: #393E46;
+  
 }
 
 h1 {
@@ -32,4 +33,19 @@ p {
   width: 150px;
   height: auto;
 
+}
+
+.button {
+  font-family: 'Indie Flower', cursive;
+  border: 2px solid #4ECCA3;
+  color: #4ECCA3;
+  transition: ease-in-out 0.3s;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.button:hover {
+  color: #393E46;
+  background-color: #4ECCA3;
 }
